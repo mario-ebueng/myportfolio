@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+body{
+    background: rgba(71, 95, 71, 0.801);
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to top, transparent, rgba(71, 95, 71, 0.99)), url("../images/japan.jpg");
+}
+.header h1{
+    background-color: black;
+    border: solid black 15px
+}
+
+nav li{
+    display: inline;
+    margin: 7em;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+nav{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: white;
+}
+
+nav a{
+    color: rgba(71, 95, 71, 0.801);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+hr{
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    border: none;
+}
+
+#profile{
+    position: relative;
+    padding-top: 10em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#profile-image{
+    float: left;
+    shape-outside: circle();
+    shape-margin: 20px;
+    margin-right: 2rem;
+    width: 20rem;
+    height: 20rem;
+    border: 15px solid black;
+    outline: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4rem black;
+}
+
+#about-me{
+    text-align: justify;
+    color:antiquewhite;
+    font-size: 3rem;
+}
+#dslayer{
+    position: relative;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+#zenitsu {    
+    display: block;
+    margin-left: auto;
+    margin-right: 33rem;
+    display: flex;
+    padding-top: 10em;
+    padding-left: 20em;
+    padding-bottom: 5em;
+    width: 50rem;
+    max-width: 100%;
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+}
+#zenitsu:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    }
+
+#hobbies{
+    text-align: center;
+    color:antiquewhite;
+    font-size: 3rem
+}
+#aiya{
+    padding-top: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+#dog{
+    float: right;
+    width: 20%;
+    height: 300px;
+    border: 15px solid black;
+    outline: 5px solid white;
+    shape-outside: square();
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 4rem black;
+}
+
+#about-aiya{
+    text-align: justify;
+    color:antiquewhite;
+    font-size: 3rem;
+    padding-bottom: 3em;
+}
+
+#form{
+    font-size: 2rem;
+    padding: 3rem;
+    margin:50px 0px;
+    text-align:center;
+}
+
+#body{
+    font-size: 2rem;
+    border: solid black 5px;
+    box-shadow: 0 0 1rem black;
+}
+
+.form-button{
+    padding: 5px;
+    font-size: 2rem;
+    border: solid black 2px;
+    box-shadow: 0 0 1rem black;
+}
