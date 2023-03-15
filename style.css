@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
 }
-body{
+#body-1{
     background: rgba(71, 95, 71, 0.801);
 }
 .header{
@@ -144,7 +144,13 @@ hr{
     padding-bottom: 3em;
 }
 
+#body-2{
+    background-image: url("../images/galaxy.jpg");
+}
+
 #form{
+    color:white;
+    text-shadow: 0 0 1rem antiquewhite;
     font-size: 2rem;
     padding: 3rem;
     margin:50px 0px;
@@ -152,14 +158,17 @@ hr{
 }
 
 #body{
+    text-align:center;
     font-size: 2rem;
     border: solid black 5px;
-    box-shadow: 0 0 1rem black;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem antiquewhite;
 }
 
 .form-button{
     padding: 5px;
     font-size: 2rem;
     border: solid black 2px;
-    box-shadow: 0 0 1rem black;
+    box-shadow: 0 0 1rem antiquewhite;
+    border-radius: 10px;
 }
